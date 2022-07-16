@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Insertar Javascript</title>
+</head>
+<body>
+    <h1>Insertar Javascript</h1>
+    <h2>Dentro del elemento "script"</h2>
+    <h2>Dentro del controlador de eventos on...</h2>
+
+    <nav>
+        <button onclick="document.body.style.backgroundColor='#c699ee'">violeta</button>
+        <button onclick="document.body.style.backgroundColor='#99e3ee'">azul</button>
+        <button onclick="document.body.style.backgroundColor='#ee8787'">rojo</button>
+    </nav>
+
+    <script>
+        //comentario de 1 línea
+        //alert('el odiado alert');
+        /*  varias línes
+            print();  //sirve para abrir díalogo de impresora
+        */
+        document.write('Hola mundo desde javascript');
+        document.write('<br>');
+        document.write('otro texto');
+        document.write('<br>');
+        document.write('<img style="border: 2px solid #f60" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Fthumb%2F7%2F73%2FJavascript-736400_960_720.png%2F120px-Javascript-736400_960_720.png&f=1&nofb=1">');
+        console.log('texto que se muestra en la consola');
+
+        //document.body.bgColor = '#ee9';  obsolete
+        /* body style="background-color: #ee9;" */
+        document.body.style.backgroundColor = '#ee9';
+
+    </script>
+
+</body>
+</html>
