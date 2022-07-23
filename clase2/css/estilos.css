@@ -13,3 +13,7 @@ body{
     width: 768px;
     margin: auto;
 }
+span{
+    background-color: rgb(200, 250, 250);
+    padding: 8px;
+}
