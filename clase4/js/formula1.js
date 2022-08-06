@@ -8,3 +8,9 @@ let mclaren = document.querySelector('#mclaren');
 ferrari.style.display = 'none';
 mercedes.style.display = 'none';
 mclaren.style.display = 'none';
+
+function mostrarOcultar( team )
+{
+    ferrari.style.display = 'flex';
+    redbull.style.display = 'none';
+}
