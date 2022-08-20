@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;600&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: Raleway, sans-serif;
+    font-size: 1.2em;
+    font-weight: 300;
+    color: #707070;
+    background-color: #f8f8f8;
+    width: 768px;
+    margin: auto;
+}
+span{
+    background-color: rgb(200, 250, 250);
+    padding: 8px;
+}
+
+nav{
+    margin: 32px 0px;
+}
+button{
+    background-color: #323232;
+    color: #fff;
+    padding: 8px 32px;
+    margin: 2px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: .3s;
+}
+button:hover{
+    background-color: #666;
+    box-shadow: 0px 0px 8px #707070;
+}
+#caja{
+    width: 150px;
+    height: 150px;
+    background-color: rgb(215, 0, 165);
+    border-radius: 12px;
+    padding: 24px;
+}
+#patoperro{
+    position: relative;
+    top: 200px;
+}
+#listaMarcas li{
+    list-style-type: none;
+    background-color: #c804f8;
+    color: #fff;
+    margin: 2px;
+    width: 250px;
+    padding: 8px;
+    transition: .3s;
+}
+#listaMarcas li:hover{
+    font-size: 1.25em;
+}
+#autos i{
+    margin-right: 8px;
+}
+#autos a{
+    font-weight: 600;
+    display: block;
+    margin: 16px 0px;
+    text-decoration: none;
+    color: #707070;
+}
+#autos a:hover{
+    color: #5ea54a;
+}

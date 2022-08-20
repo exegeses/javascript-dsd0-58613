@@ -1,5 +1,5 @@
 let marcas = [
                 'Hermes', 'Zara', 'Boss',
-                'Aeropostal', 'Tommy', 'Hollister'
+                'Aeropostale', 'Tommy', 'Hollister'
              ];
 console.log(marcas);

@@ -28,4 +28,5 @@ if( mes < 10 ){
 let anio = fecha.getFullYear();
 
 //imprimimos en el span
-txt.innerText = diaMes +'/'+ mes +'/'+ anio;
+//txt.innerText = diaMes +'/'+ mes +'/'+ anio;
+txt.innerText = `${diaMes}/${mes}/${anio}`;
